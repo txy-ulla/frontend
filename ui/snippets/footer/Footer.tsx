@@ -121,12 +121,12 @@ const Footer = () => {
           { !config.UI.indexingAlert.intTxs.isHidden && <IntTxsIndexingStatus/> }
           <NetworkAddToWallet/>
         </Flex>
-        <Box mt={{ base: 5, lg: '44px' }}>
+        {/* <Box mt={{ base: 5, lg: '44px' }}>
           <Link fontSize="xs" href="https://www.blockscout.com">blockscout.com</Link>
-        </Box>
-        <Text mt={ 3 } maxW={{ base: 'unset', lg: '470px' }} fontSize="xs">
+        </Box> */}
+        {/* <Text mt={ 3 } maxW={{ base: 'unset', lg: '470px' }} fontSize="xs">
             Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.
-        </Text>
+        </Text> */}
         <VStack spacing={ 1 } mt={ 6 } alignItems="start">
           { apiVersionUrl && (
             <Text fontSize="xs">
@@ -140,7 +140,7 @@ const Footer = () => {
           ) }
         </VStack>
       </Box>
-      <Grid
+      {/* <Grid
         gap={{ base: 6, lg: config.UI.footer.links && colNum === MAX_LINKS_COLUMNS + 1 ? 2 : 8, xl: 12 }}
         gridTemplateColumns={ config.UI.footer.links ?
           {
@@ -195,7 +195,7 @@ const Footer = () => {
             </Box>
           ))
         ) }
-      </Grid>
+      </Grid> */}
     </Flex>
   );
 };

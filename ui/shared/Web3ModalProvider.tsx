@@ -35,7 +35,7 @@ const getConfig = () => {
       },
       blockExplorers: {
         'default': {
-          name: 'Blockscout',
+          name: 'wow earn',
           url: config.app.baseUrl,
         },
       },
